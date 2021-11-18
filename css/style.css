@@ -1,0 +1,35 @@
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
+.bring-down {
+    padding-top: 10rem;
+}
+
+.grid {
+    display: grid;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 2rem auto;
+}
+
+.grid-element {
+    background-color: var(--background);
+}
+
+@media (max-width: 450px) {
+    header {
+    font-size: 2.4rem;
+    }
+
+    .grid {
+    max-width: 300px;
+    min-height: 300px;
+    }
+}
+
+.pointer {cursor: pointer;}
